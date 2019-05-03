@@ -44,5 +44,5 @@
   apt:
     name: "openjdk-8-jre-headless"
     state: "present"
-    update_cache: true
-    when:  not graylog_oracle_java
+    update_cache: True
+  when:  not graylog_oracle_java
